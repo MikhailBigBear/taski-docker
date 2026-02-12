@@ -10,9 +10,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "mikhailbigbear.hopto.org"]
 
-
-# Application definition
-
 INSTALLED_APPS = [
     "api.apps.ApiConfig",
     "django.contrib.admin",
@@ -56,8 +53,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "backend.wsgi.application"
 
-
-# Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
