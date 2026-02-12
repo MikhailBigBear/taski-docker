@@ -93,3 +93,4 @@ jobs:
           # устанавливаем тег latest, чтобы потом
           # на сервере и в docker-compose.yml не указывать версию
           tags: mikhailbigbear/taski_backend:latest
+#qwewerjsdofh
